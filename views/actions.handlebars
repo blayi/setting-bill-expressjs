@@ -1,0 +1,19 @@
+<div class="row">
+  <h1>Actions</h1>
+  <table>
+    <tr>
+      <th>Type</th>
+      <th>Price</th>
+      <th>When</th>
+      <th>Ago</th>
+    </tr>
+    {{#each stampAction}}
+    <tr>
+      <th>{{type}}</th>
+        <th>{{price}}</th>
+          <th>{{timestamp}}</th>
+          <th>{{ago}}</th>
+    </tr>
+      {{/each}}
+  </table>
+</div>
