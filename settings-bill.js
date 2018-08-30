@@ -34,8 +34,8 @@ if (totalS < critical) {
 
      var getAction = function(){
        for (var i = 0; i < stampMap.length; i++) {
-         let ment = moment(stampMap[i].time).fromNow();
-         stampMap[i].ago=ment;
+         let ment = moment(stampMap[i].timestamp).fromNow();
+         stampMap[i].ago = ment;
        }
        return stampMap;
      }
