@@ -41,10 +41,10 @@ if (totalS < critical) {
      }
       //getting totals
       var getCall = function() {
-        return callSettings;
+        return callSettings.toFixed(2);
       }
       var getSms = function() {
-        return smsSettings;
+        return smsSettings.toFixed(2);
       }
       var getTotals = function() {
         return smsSettings + callSettings;
